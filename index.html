@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Pokemon Finder</title>
 </head>
 <body>
@@ -16,6 +17,15 @@
             <button class="submit" id="submitButton">🔎</button>
         </div>
     </section>
+    <div class="errorContainer">
+        <div class="error">
+            <p class="errorMsg">Oops Looks like there been an error</p>
+            <br>
+            <p class="errorMsg">Please check your spelling</p>
+            <br>
+            <p id="errorInfo"></p>
+        </div>
+    </div>
     <section class="pokemon-container">
         <div class="pokemon-data-cont">
             <h1 class="pokeName" id="pokemonName">Pokemon Name</h1>
@@ -26,7 +36,6 @@
             <p class="pokeType" id="pokeType">Type :</p>
             <p class="pokeHp" id="pokeHp">HP : </p>
             <p class="pokeAttack" id="pokeAttack">Attack :</p>
-
         </div>
     </section>
 </body>
