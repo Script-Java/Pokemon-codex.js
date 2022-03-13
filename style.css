@@ -26,7 +26,7 @@ body {
 .pokemon-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 .pokemon-data-cont h1 {
@@ -41,4 +41,18 @@ body {
 .pokemon-data-cont p {
     color: #dfdfdf;
     margin: 20px;
+}
+.errorContainer {
+    display: flex;
+    justify-content: center;
+}
+.error {
+    color: rgb(255, 75, 75);
+    background-color: rgba(255, 75, 75, 0.2);
+    border: 1px solid rgba(255, 75, 75, 0.2);
+    width: 50%;
+    height: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
 }
